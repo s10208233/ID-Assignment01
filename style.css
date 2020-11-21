@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-/* 845 for mobile/tablet */
-
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
@@ -131,4 +129,39 @@ footer .quick-links a:hover{
     font-size: 9pt;
     margin: 15px;
     padding: 5px;
+}
+
+@media only screen and (max-width: 849px){
+    header{
+        position: fixed;
+    }
+    footer .social-links{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    footer img{
+        width: 45px;
+        transition: .3s;
+    }
+    footer img:hover{
+        width: 45px;
+        transition: .3s;
+        transform: scale(1.25);
+        box-shadow: 0 0px 15px rgba(47, 24, 255, 0.527);
+    }
+    footer .quick-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    footer .quick-links a{
+    font-size: 9pt;
+    margin: 15px;
+    padding: 5px;
+    }
+     
 }
