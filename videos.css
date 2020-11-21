@@ -1,0 +1,46 @@
+.main-content{
+    color: #fff;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.349), 0 2px 2px rgba(0, 0, 0, 0.39);
+    padding-bottom: 150px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(images/videos-banner-blur.png);
+}   
+.banner div{
+    padding: 150px 0px;
+}
+.banner iframe{
+    display: block;
+    margin: auto;
+    width: 750px;
+    height: 425px;
+}
+.content{
+    padding-top: 0px;
+    padding-bottom: 150px;
+}
+.content h1{
+    text-align: center;
+}
+.flex-videos{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 25px;
+    justify-content: center;
+}
+
+iframe{
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    transition: 0.3s;
+}
+iframe:hover{
+    transition: 0.3s;
+    transform: scale(1.05);
+    outline:2px solid rgb(194, 41, 255);
+    box-shadow: 0 3px 35px rgba(47, 24, 255, 0.527);
+}

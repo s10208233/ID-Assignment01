@@ -1,0 +1,68 @@
+.main-content{
+    color: #fff;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.616), 0 2px 2px rgba(0, 0, 0, 0.657);
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(images/about-background-blur.png);
+}
+.banner{
+    display: block;
+    margin: auto;
+    height: 425px;
+    width: 750px;
+    background-image: url(images/about-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.bio{
+    margin: 100px auto;
+    width: 775px;
+    background-color: #00000041;
+    padding: 50px;
+    transition: 0.3s;
+}
+.bio:hover{
+    margin: 100px auto;
+    width: 775px;
+    background-color: #000000d3;
+    padding: 50px;
+    transition: 0.3s;
+}
+h1{
+    margin-top: 50px;
+    text-align: center;
+}
+.bio p{
+    display: block;
+    margin: 50px auto;
+    width: 725px;
+}
+
+.photos{
+    margin-top: 50px;
+}
+
+.flex-photos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    width: 85%;
+    justify-content: center;
+}
+
+.photo-container{
+    margin: 10px;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.photo-container img{
+    display: block;
+    margin: auto;
+    width: 425px; height: 300px;
+    object-fit: cover;
+}

@@ -1,0 +1,57 @@
+.main-content{
+    padding-top: 150px;
+    background-image: url(images/background-1-blur.png);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.349), 0 2px 2px rgba(0, 0, 0, 0.39);
+}
+
+.main-content h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.banner{
+    display: block;
+    margin: auto;
+    height: 425px;
+    width: 750px;
+    background-image: url(images/album-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.music{
+    margin-top: 100px;
+    padding-bottom: 200px;
+}
+
+.music h2{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.music-flex {
+    margin: auto;
+    width: 85%;
+    padding-top: 10px; padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 27%;
+}
+
+.music-flex iframe {
+    transition: all .3s;
+    margin: 15px;
+    width: 325px;
+    height: 400px;
+}
+
+.music-flex iframe:hover {
+    transform:scale(1.05);
+    outline:1.5px solid rgb(194, 41, 255);
+    box-shadow: 0 3px 35px rgba(47, 24, 255, 0.527);
+}

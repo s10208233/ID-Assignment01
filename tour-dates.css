@@ -1,0 +1,67 @@
+.main-content{
+    color: #fff;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.349), 0 2px 2px rgba(0, 0, 0, 0.39);
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(images/background-2-blur.png);
+}   
+.banner{
+    display: block;
+    margin: auto;
+    height: 425px;
+    width: 750px;
+    background-image: url(images/tour-dates-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.tour{
+    padding-top: 100px;
+    margin: auto;
+    width: 775px;
+}
+.tour h1{
+    text-align: center;
+    display: block;
+    margin-bottom: 50px;
+}
+.tour-table{
+    background-color: #0000009f;
+    height: 500px;
+    padding: 50px;
+}
+.tour-table ul{
+    margin-top: 30px;
+    margin-left: -20px;
+    list-style: none;
+}
+.tour-table ul li{
+    font-size: 10pt;
+    display: inline-block;
+    padding-right: 100px;
+}
+.tour-table-line{
+    height: 2px;
+    background-color: #fff;
+}
+.tour-table p{
+    display: block;
+    margin: 100px auto;
+    text-align: center;
+    color: #ffffffc5;
+}
+.follow-message{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.follow-message button{
+    display: block;
+    margin: 15px auto;
+    background-color: #fff;
+    border: none;
+    padding: 15px 50px;
+}

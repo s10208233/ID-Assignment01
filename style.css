@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* 845 for mobile/tablet */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+header{
+    padding: 25px;
+    font-style: normal;
+    background-color: #fff;
+    padding: 20px;
+    z-index: 1;
+    box-shadow: 0 2px 5px rgba(39, 39, 39, 0.19), 0 1px 1px rgba(0, 0, 0, 0.205);
+}
+header div.logo-container{
+    display: inline-block;    
+    margin: auto;
+}
+header div.logo-container img{
+    width: 150px;
+    padding-top: 8px;
+}
+header nav{
+    float: right;
+}
+header nav ul{
+    padding: 0px;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0px 15px;
+    font-size: 10pt;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #5c5c5c;
+    transition: .3s;
+}
+header nav ul li a:hover{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bolder;
+    padding: 0px;
+    font-size: 12pt;
+    transition: .3s;
+}
+header nav ul li a.current-page{
+    color: #000000;
+    font-weight: bolder;
+    text-decoration: line-through;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+button{
+    font-family: inherit;
+    font-size: 12pt;
+    transition: .3s;
+    display: block;
+    margin: auto;
+    border: none;
+    padding: 20px 50px;
+    background-color: #d3d3d3;
+}
+button:hover{
+    transition: .3s;
+    transform: scale(1.02);
+    display: block;
+    font-weight: bold;
+    margin: auto;
+    border: none;
+    padding: 20px 50px;
+    background-color: #fff;
+    outline:1.5px solid rgb(194, 41, 255);
+    box-shadow: 0 3px 35px rgba(47, 24, 255, 0.527);
+
+}
+
+button:active{
+    transition: .05s;
+    transform: scale(0.98);
+    outline:1.5px solid rgb(38, 0, 255);
+}
+
+footer
+{
+    color: #5c5c5c;
+    text-align: center;
+    padding: 30px;
+    background-color: #222222;
+}
+
+footer .social-links{
+    margin: auto;
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer img{
+    width: 35px;
+    transition: .3s;
+}
+
+footer img:hover{
+    width: 35px;
+    transition: .3s;
+    transform: scale(1.25);
+    box-shadow: 0 0px 15px rgba(47, 24, 255, 0.527);
+}
+footer .quick-links{
+   display: flex;
+   justify-content: center;
+}
+
+footer .quick-links a{
+    font-size: 9pt;
+    margin: 15px;
+    padding: 5px;
+}
+
+footer .quick-links a:hover{
+    color: white;
+    font-size: 9pt;
+    margin: 15px;
+    padding: 5px;
+}
