@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
@@ -18,6 +19,9 @@ header div.logo-container{
 header div.logo-container img{
     width: 150px;
     padding-top: 8px;
+}
+.hamburger-icon{
+    display: none;
 }
 header nav{
     float: right;
@@ -75,7 +79,6 @@ button:hover{
     background-color: #fff;
     outline:1.5px solid rgb(194, 41, 255);
     box-shadow: 0 3px 35px rgba(47, 24, 255, 0.527);
-
 }
 
 button:active{
@@ -130,17 +133,81 @@ footer .quick-links a:hover{
     margin: 15px;
     padding: 5px;
 }
-
+/* MOBILE  */
 @media only screen and (max-width: 849px){
+    .hamburger-icon{
+        width: fit-content;
+        display: block;
+        margin: auto;
+        padding-right: 20px;
+        font-size: 20pt;
+    }
+    .mobile-links{
+        display: none;
+    }
+    .test{
+        display: flex;
+        flex-direction: row;
+    }
     header{
+        padding: 0px;
         position: fixed;
+        width: 100%;
+    }
+    header div.logo-container{
+        padding: 15px;
+        display: block;
+        flex: 0 0 80%;
+    }
+    header div.logo-container img{
+        display: block;
+    }
+
+    header nav{
+        display: none;
+        float: none;
+        text-align: center;
+    }
+    header nav ul{
+        padding-top: 50px;
+        background-color: rgba(255, 255, 255, 0.287);
+        height: 2000px;
+        padding: 0px;
+    }
+    header nav ul li{
+        display: block;
+        margin: 50px auto;
+        font-size: 16pt;
+    }
+    header nav ul li a{
+        text-decoration: none;
+        color: #5c5c5c;
+        transition: .3s;
+    }
+    header nav ul li a{
+        text-decoration: none;
+        color: #5c5c5c;
+        transition: .3s;
+        margin-top: 20px;
+    }
+    header nav ul li a:hover{
+        text-decoration: none;
+        color: #000000;
+        font-weight: bolder;
+        transition: .3s;
+        margin-top: 40px;
+        font-size: 16pt;
+    }
+    header nav ul li a.current-page{
+        color: #000000;
+        font-weight: bolder;
+        text-decoration: line-through;
     }
     footer .social-links{
         margin: auto;
         width: 100%;
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
         justify-content: space-evenly;
     }
     footer img{
