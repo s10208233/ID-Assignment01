@@ -24,13 +24,13 @@ form{
     padding: 50px;
     transition: 0.3s;
 }
-/* form:hover{
+form:hover{
     margin: 100px auto;
     width: 725px;
-    background-color: #000000d3;
+    background-color: #000000bd;
     padding: 50px;
     transition: 0.3s;
-} */
+}
 form h1{
     text-align: center;
     padding-bottom: 30px;
@@ -77,3 +77,4 @@ form .submit:hover{
     outline:1.5px solid rgb(194, 41, 255);
     box-shadow: 0 3px 35px rgba(47, 24, 255, 0.527);
 }
+
