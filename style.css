@@ -139,15 +139,12 @@ footer .quick-links a:hover{
         width: fit-content;
         display: block;
         margin: auto;
-        padding-right: 20px;
+        float: right;
+        padding: 30px;
         font-size: 20pt;
     }
     .mobile-links{
         display: none;
-    }
-    .test{
-        display: flex;
-        flex-direction: row;
     }
     header{
         padding: 0px;
@@ -156,14 +153,17 @@ footer .quick-links a:hover{
     }
     header div.logo-container{
         padding: 15px;
+        float: left;
         display: block;
-        flex: 0 0 80%;
+        /* flex: 0 0 80%; */
     }
     header div.logo-container img{
         display: block;
+        padding-top: 14px;
     }
 
     header nav{
+        margin-top: 50px;
         display: none;
         float: none;
         text-align: center;
@@ -173,10 +173,15 @@ footer .quick-links a:hover{
         background-color: rgba(255, 255, 255, 0.287);
         height: 2000px;
         padding: 0px;
+        text-align: right;
+    }
+    header nav ul li:first-child{
+        padding-top: 40px;
     }
     header nav ul li{
         display: block;
         margin: 50px auto;
+        padding-right: 50px;
         font-size: 16pt;
     }
     header nav ul li a{
@@ -188,7 +193,7 @@ footer .quick-links a:hover{
         text-decoration: none;
         color: #5c5c5c;
         transition: .3s;
-        margin-top: 20px;
+        margin-top: 40px;
     }
     header nav ul li a:hover{
         text-decoration: none;

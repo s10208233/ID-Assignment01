@@ -10,16 +10,15 @@
 </head>
 <body>
 <header>
-    <div class="test">
     <div class="logo-container">
         <a href="index.html"><img src="images/kygo-logo.png" alt="header logo"></a>
     </div>
     <a href="javascript:void(0);" class="hamburger-icon" onclick="mobileNav()">
         <i class="fa fa-bars"></i>
     </a>
-    </div>
     <nav id="links">
         <ul>
+            <li> </li>
             <li><a href="index.html">HOME</a></li>
             <li><a href="music.html">MUSIC</a></li>
             <li><a href="tour-dates.html">TOUR DATES</a></li>
@@ -112,6 +111,7 @@
         var x = document.getElementById("links");
         if (y.matches) { // If media query matches
             x.style.display = "block";
+            x.style.float = "right";
         } 
         else {
             x.style.display = "none";
