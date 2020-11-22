@@ -8,11 +8,14 @@
 <link rel="icon" href="images/kygo-favicon.png" type="image" sizes="15x15">
 </head>
 <body>
-<header>
-    <div class="logo-container">
-        <a href="index.html"><img src="images/kygo-logo.png" alt="header logo"></a>
-    </div>
-    <nav>
+    <header>
+        <div class="logo-container">
+            <a href="index.html"><img src="images/kygo-logo.png" alt="header logo"></a>
+        </div>
+        <a href="javascript:void(0);" class="hamburger-icon" onclick="mobileNav()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <nav id="links">
         <ul>
             <li><a href="index.html">HOME</a></li>
             <li><a href="music.html">MUSIC</a></li>
@@ -64,5 +67,27 @@
         </nav>
     </div>
 </footer>
+<script>
+    function mobileNav() {
+        var x = document.getElementById("links");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+    function desktopNav(y) {
+        var x = document.getElementById("links");
+        if (y.matches) { // If media query matches
+            x.style.display = "block";
+            x.style.float = "right";
+        } 
+        else {
+            x.style.display = "none";
+        }
+    }
+    var y = window.matchMedia("(min-width: 850px)")
+    y.addListener(desktopNav)
+    </script>
 </body>
 </html>

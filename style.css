@@ -167,7 +167,6 @@ footer .quick-links a:hover{
     header nav{
         align-content: center;
         display: none;
-        float: none;
         text-align: center;
     }
     header nav ul{
@@ -175,14 +174,14 @@ footer .quick-links a:hover{
         height: 2000px;
         padding: 0px;
         text-align: right;
+
     }
     header nav ul li:first-child{
         padding-top: 50px;
     }
     header nav ul li{
         display: block;
-        margin: 50px auto;
-        padding-right: 50px;
+        margin: 30px auto;
         font-size: 16pt;
     }
     header nav ul li a{
