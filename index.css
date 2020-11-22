@@ -12,7 +12,6 @@
     position: relative;
     text-align: center;
     box-shadow: inset 0 2px 3px rgba(39, 39, 39, 0.568), 0 1px 1px rgba(0, 0, 0, 0.205);
-
 }
 
 .banner-flex{
@@ -124,4 +123,59 @@
     transform:scale(1.08);
     outline:1.5px solid rgb(194, 41, 255);
     box-shadow: 0 3px 35px rgba(47, 24, 255, 0.527);
+}
+
+@media only screen and (max-width: 849px){
+    .banner{
+        height: 2000px;
+        background-image: url(images/golden-hour-banner-mobile.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        text-align: center;
+        box-shadow: inset 0 2px 3px rgba(39, 39, 39, 0.568), 0 1px 1px rgba(0, 0, 0, 0.205);
+    }
+    .banner iframe{
+        width: fit-content;
+        display: block;
+        margin: 35px auto;
+        width: 80%;
+        height: 600px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 0px 6px rgba(0,0,0,0.23);
+    }
+    .news{
+        background-color: #3a3a3a;
+        padding-top: 150px;
+        padding-bottom: 150px;
+        box-shadow: inset 0 0px 20px rgba(0, 0, 0, 0.561);
+    }
+    .news-flex{
+        width: 80%;
+        margin: auto;
+        padding: 25px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .news-items img{
+        display: block;
+        margin: auto;
+        padding-top: 40px;
+        width:100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .news-items{
+        background-color: #fff;
+        margin-bottom: 80px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.65), 0 3px 3px rgba(0,0,0,0.23);
+    }
+    .news-details{
+        width: 80%;
+    }
+    
 }
