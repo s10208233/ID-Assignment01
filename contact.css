@@ -78,3 +78,45 @@ form .submit:hover{
     box-shadow: 0 3px 35px rgba(47, 24, 255, 0.527);
 }
 
+@media only screen and (max-width: 849px){
+    .main-content{
+        padding-top: 0px;
+    }
+    .banner{
+        display: block;
+        margin: auto;
+        height: 1000px;
+        width: 100%;
+        background-image: url(images/kygo-photo-2.jpg);
+        background-size: cover;
+        background-position: right;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
+    form{
+        margin: 150px auto;
+        padding: 25px;
+        width: 80%;
+        background-color: #00000062;
+        transition: 0.3s;
+    }
+    form:hover{
+        padding: 25px;
+
+        margin: 150px auto;
+        width: 80%;
+
+        background-color: #000000bd;
+        transition: 0.3s;
+    }
+    form input{
+        margin: auto;
+        margin-bottom: 20px;
+        border: 1;
+        border-width: 3px;
+        border-color: #ffffff;
+        border-style: solid;
+        display: block;
+        padding: 20px;
+        width: 75%;
+    }
+}

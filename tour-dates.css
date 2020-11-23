@@ -65,3 +65,22 @@
     border: none;
     padding: 15px 50px;
 }
+@media only screen and (max-width: 849px){
+    .main-content{
+        padding-top: 0px;
+    }
+    .banner{
+        height: 1000px;
+        width: 100%;
+    }
+    .tour{
+        margin: auto;
+        width: 90%;
+    }
+    .tour-table{
+        background-color: #0000009f;
+        height: 500px;
+        padding-top: 50px;
+        padding: 50px;
+    }
+}

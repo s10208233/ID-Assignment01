@@ -55,3 +55,49 @@
     outline:1.5px solid rgb(194, 41, 255);
     box-shadow: 0 3px 35px rgba(47, 24, 255, 0.527);
 }
+@media only screen and (max-width: 849px){
+    
+    .main-content{
+        padding-top: 0px;
+    }
+    .banner{
+        display: block;
+        margin: auto;
+        width: 75%;
+        background-image: url(images/album-banner.jpg);
+        background-size: cover;
+        background-position: center;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
+    .banner{
+        display: block;
+        margin: auto;
+        height: 1000px;
+        width: 100%;
+        background-image: url(images/album-banner.jpg);
+        background-size: cover;
+        background-position: center;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
+    .music{
+        margin-top: 300px;
+        padding-bottom: 200px;
+    }
+    
+    .music-flex {
+        margin: auto;
+        width: 85%;
+        padding-top: 10px; padding-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-basis: 27%;
+    }
+
+    .music-flex iframe {
+        transition: all .3s;
+        margin: 15px;
+        width: 400px;
+        height: 475px;
+    }
+}

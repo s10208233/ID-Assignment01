@@ -114,9 +114,9 @@
 .music-flex iframe {
     transition: all .3s;
     margin: 15px;
-    width: 300px;
-    height: 375px;
-    box-shadow: 0 0px 25px rgba(197, 197, 197, 0.589);
+    width: 400px;
+    height: 475px;
+    box-shadow: 0 0px 15px rgba(197, 197, 197, 0.589);
 }
 
 .music-flex iframe:hover {
@@ -176,6 +176,15 @@
     }
     .news-details{
         width: 80%;
+    }
+
+    .music-flex iframe {
+        transition: all .3s;
+        margin-top: 90px;
+        width: 425px;
+        height: 475px;
+        /* height: 375px; */
+        box-shadow: 0 0px 15px rgba(197, 197, 197, 0.589);
     }
     
 }
