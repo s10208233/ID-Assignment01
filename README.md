@@ -18,11 +18,19 @@ View the wireframe: https://xd.adobe.com/view/22a59bb0-1996-4b8a-a0f3-1f92dcfb7d
 XD File can be found in the repository named **'assignment01.xd'**
 
 ## Features
+#### Navigation Bar
+At the very top of the page or its header, the navigation bar is universal and applies to every page with intended purpose and the main way for the user to navigate through the site.
+
+#### Footer
+Similarly to the header, the footer is universal and applies to every page. The footer provides the same navigation but in a more subtle manner, inteded so that the user does not need to scroll back up to navigate the page once they are done browsing that particular page. In addition, Social or Social Media links can be found here.
+
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 ### Homepage - index.html
 The homepage displays the lastest news and music Kygo's has out.
 #### Banner
 Features the latest music.
+#### News
+#### 
 ### Music - music.html
 ### Tour Dates - tour-dates.html
 ### Merch - merch.html
