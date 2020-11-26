@@ -44,7 +44,7 @@ form p{
 form input{
     margin: auto;
     margin-bottom: 20px;
-    border: 1;
+    border: 1px;
     border-width: 3px;
     border-color: #ffffff;
     border-style: solid;
@@ -111,7 +111,7 @@ form .submit:hover{
     form input{
         margin: auto;
         margin-bottom: 20px;
-        border: 1;
+        border: 1px;
         border-width: 3px;
         border-color: #ffffff;
         border-style: solid;
