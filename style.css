@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+iframe{
+    border: 0;
+}
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
@@ -140,8 +143,8 @@ footer .quick-links a:hover{
         display: block;
         margin: auto;
         float: right;
-        padding: 30px;
-        padding-right: 30px;
+        padding-top: 18px;
+        padding-right: 25px;
         font-size: 20pt;
     }
     .mobile-links{
@@ -154,14 +157,15 @@ footer .quick-links a:hover{
     }
     header div.logo-container{
         padding: 15px;
-        padding-left: 30px;
+        padding-left: 15px;
         float: left;
         display: block;
         /* flex: 0 0 80%; */
     }
     header div.logo-container img{
         display: block;
-        padding-top: 14px;
+        padding-top: 6px;
+        width: 100px;
     }
 
     header nav{
@@ -181,7 +185,7 @@ footer .quick-links a:hover{
 
     }
     header nav ul li:first-child{
-        padding-top: 50px;
+        padding-top: 0px;
     }
     header nav ul li{
         display: block;
