@@ -41,6 +41,8 @@ Displays albums and singles of Kygo in chronological order by year.
 Displays the tour date of Kygo's live shows. Currently unavailable, at the bottom of the table links to the contact page.
 
 ### Merch - merch.html
+Displays two button links are in this page will direct users to an
+
 ### Videos - videos.html
 ### About - about.html
 ### Contact - contact.html
