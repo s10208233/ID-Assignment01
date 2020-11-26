@@ -41,27 +41,10 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+In every page, for the mobile view *(or if the screen is smaller than 850px)* the navigation bar's hamburger icon works by using JavaScript to hide and show certain elements following the media screen size. Making the navigation more compact for smaller screen sizes and more user friendly.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
-
-## Testing
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- [JavaScript](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp)
+    - The project uses **JavaScript** to hide and show certain elements needed for the mobile view's navigation.
 
 ## Credits
 
@@ -146,5 +129,5 @@ https://www.logolynx.com/images/logolynx/8e/8ede4891df8221a086c624d873763584.png
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from https://www.kygomusic.com/ and his very cool music.
 
