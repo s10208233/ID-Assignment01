@@ -19,7 +19,20 @@ XD File can be found in the repository named **'assignment01.xd'**
 ## Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 ### Homepage - index.html
+<br>
 ### Music - music.html
+<br>
+### Tour Dates - tour-dates.html
+<br>
+### Merch - merch.html
+<br>
+### Videos - videos.html
+<br>
+### About - about.html
+<br>
+### Contact - contact.html
+<br>
+
 
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
