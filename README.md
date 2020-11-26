@@ -53,7 +53,7 @@ In every page, for the mobile view *(or if the screen is smaller than 850px)* th
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-*The photos used in this site were obtained from ...*
+*The photos used in this site were obtained from ...*<br>
 golden-hour-banner <br>
 https://www.edm-lab.com/wp-content/uploads/2020/05/qoub63anvgr41.png
 
