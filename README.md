@@ -4,6 +4,7 @@ The KYGO website is a dedicated website for the sing songwriter KYGO or Kyrre GÃ
 More on Kygo:<br>
 https://en.wikipedia.org/wiki/Kygo<br>
 https://www.kygomusic.com/biography/
+spotify:artist:23fqKkggKUBHNkbKtXEls4
 
 ## Design Process
 Kygo creates music under the 'EDM' and wave/beach house genre, *'EDM' also known as electronic dance music*, the ambience of his live shows and the mood of his songs generally falls similar to a mood of disco lights or beach vibes. As mentioned in the introduction, this website is designed for Kygo's audience who wishes to follow up news of kygo, listen to his music/album on the website and external platforms such as Spotify via iframes or through external links, book up coming live shows, redirect users/audience interested in Kygo's merchandise to his store, watch music videos or recorded performances and to contact kygo through an email address link or to keep in contact by following through email subscription. New users are also able to learn more about Kygo and his work through this site.
