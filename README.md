@@ -43,8 +43,8 @@ In addition, you may also use this section to discuss plans for additional featu
 
 In every page, for the mobile view *(or if the screen is smaller than 850px)* the navigation bar's hamburger icon works by using JavaScript to hide and show certain elements following the media screen size. Making the navigation more compact for smaller screen sizes and more user friendly.
 
-- [JavaScript](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp)
-    - The project uses **JavaScript** to hide and show certain elements needed for the mobile view's navigation.
+- [JavaScript -  Mobile Navigation](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp)
+    - The project uses **JavaScript** to hide and show certain elements needed for the mobile view's navigation. Referenced from link above.
 
 ## Credits
 
