@@ -28,10 +28,13 @@ In this section, you should go over the different parts of your project, and des
 ### Homepage - index.html
 The homepage displays the lastest news and music Kygo's has out.
 #### Banner
-Features the latest music.
+Features the latest music using Spotify generated iframe.
 #### News
-#### 
+Shows the latest news relevant to Kygo
+#### Music (indext.html)
+A small sniplet/preview of the Music page (music.html) with a button linking to the Music page itself.
 ### Music - music.html
+Displays albums and singles of Kygo in chronological order by year.
 ### Tour Dates - tour-dates.html
 ### Merch - merch.html
 ### Videos - videos.html
