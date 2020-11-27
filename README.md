@@ -9,7 +9,7 @@ https://open.spotify.com/artist/23fqKkggKUBHNkbKtXEls4?si=pxECXgBbRjm-kuCdb4m0ag
 ## Design Process
 Kygo creates music under the 'EDM' and wave/beach house genre, *'EDM' also known as electronic dance music*, the ambience of his live shows and the mood of his songs generally falls similar to a mood of disco lights or beach vibes. As mentioned in the introduction, this website is designed for Kygo's audience who wishes to follow up news of kygo, listen to his music/album on the website and external platforms such as Spotify via iframes or through external links, book up coming live shows, redirect users/audience interested in Kygo's merchandise to his store, watch music videos or recorded performances and to contact kygo through an email address link or to keep in contact by following through email subscription. New users are also able to learn more about Kygo and his work through this site.
 
-**Exaple Scenario 1**
+**Exaple Scenario**
 >  1. New listener named Bob hears song playing and got to know just the name **"Kygo"**.<br>
 >  2. Bob searches google for "Kygo" and finds this site.<br>
 >  3. Now Bob can listen to more Kygo's work and keep up with him through this site or the other platforms this site links to. Now Bob knows about kygo and his work.<br>
@@ -41,21 +41,22 @@ Displays albums and singles of Kygo in chronological order by year.
 Displays the tour date of Kygo's live shows. Currently unavailable, at the bottom of the table links to the contact page.
 
 ### Merch - merch.html
-Displays two button links are in this page will direct users to an
+Displays two button links are in this page will direct users to an external link to shop for his merch.
 
 ### Videos - videos.html
-### About - about.html
-### Contact - contact.html
+Display music videos of Kygo's in youtube iframes in this page.
 
+### About - about.html
+Displays Kygo's Biography and a photo gallery of him/
+
+### Contact - contact.html
+Upon clicking the follow button in Tour Dates page, users will be redirected to this page. In the contact page, users are shown Kygo's email and a form. The form is for any who wishes to subscribe to Kygo's latest news and updates on any upcoming liveshows.
 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- Mobile navigation: Upon going below 850px screen size the desktop navigation bar gets hidden and only shown when the hamburger icon is active.
 
 ### Features Left to Implement
-- Another feature idea
+- Possible features to implement: Parallax scrolling with JavaScript for aesthetic.
 
 ## Technologies Used
 
@@ -67,7 +68,10 @@ In every page, for the mobile view *(or if the screen is smaller than 850px)* th
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for index.html was copied from the [Music - Kygo | Official Site](https://www.kygomusic.com/)
+- The text for tour-dates.html was copied from the [Tour Dates - Kygo | Official Site](https://www.kygomusic.com/tour-dates/)
+- The contents for videos.html was copied from the [Videos - Kygo | Official Site](https://www.kygomusic.com/)
+- The text for about.html was copied from the [Bio & Photos - Kygo | Official Site](https://www.kygomusic.com/biography/)
 
 ### Media
 *The photos used in this site were obtained from ...*<br><br>
