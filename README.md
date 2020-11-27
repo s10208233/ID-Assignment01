@@ -25,31 +25,31 @@ At the very top of the page or its header, the navigation bar is universal and a
 Similarly to the header, the footer is universal and applies to every page. The footer provides the same navigation but in a more subtle manner, inteded so that the user does not need to scroll back up to navigate the page once they are done browsing that particular page. In addition, Social or Social Media links can be found here.
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-### Homepage - index.html
+### [Homepage - index.html](https://s10208233.github.io/ID-Assignment01/)
 The homepage displays the lastest news and music Kygo's has out.
 #### Banner
 Features the latest music using Spotify generated iframe.
 #### News
 Shows the latest news relevant to Kygo
-#### Music (indext.html)
+#### Music (index.html)
 A small sniplet/preview of the Music page (music.html) with a button linking to the Music page itself.
 
-### Music - music.html
+### [Music - music.html](https://s10208233.github.io/ID-Assignment01/music.html)
 Displays albums and singles of Kygo in chronological order by year.
 
-### Tour Dates - tour-dates.html
+### [Tour Dates - tour-dates.html](https://s10208233.github.io/ID-Assignment01/tour-dates.html)
 Displays the tour date of Kygo's live shows. Currently unavailable, at the bottom of the table links to the contact page.
 
-### Merch - merch.html
+### [Merch - merch.html](https://s10208233.github.io/ID-Assignment01/merch.html)
 Displays two button links are in this page will direct users to an external link to shop for his merch.
 
-### Videos - videos.html
+### [Videos - videos.html](https://s10208233.github.io/ID-Assignment01/videos.html)
 Display music videos of Kygo's in youtube iframes in this page.
 
-### About - about.html
+### [About - about.html](https://s10208233.github.io/ID-Assignment01/about.html)
 Displays Kygo's Biography and a photo gallery of him/
 
-### Contact - contact.html
+### [Contact - contact.html](https://s10208233.github.io/ID-Assignment01/contact.html)
 Upon clicking the follow button in Tour Dates page, users will be redirected to this page. In the contact page, users are shown Kygo's email and a form. The form is for any who wishes to subscribe to Kygo's latest news and updates on any upcoming liveshows.
 
 ### Existing Features
